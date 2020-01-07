@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Bootstrap Website</title>
+
+    <!-- MY CSS FOLDER & FILE-->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!-- FONT AWESOME LINK FROM W3SCHOOL (not in use in this website)-->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">  -->
+    
+
+    <!-- JING WEN LINK  (font awesome )-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- (line 20-line 30 bootstrap link)-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+    <!-- Navbar-->
+    <div id="Header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>  
+
+                        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+
+                        <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+
+                        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- SHOWCASE-->
+    <div id="bg-img"></div>
+
+    <!-- ABOUT ME-->
+    <div id="About">
+        <div class="container"> 
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="img/person.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <h3 class="display-4 ml-5">I'm John Doe</h3>
+                                        <p class="text-muted ml-5">Programmer & Blogger</p>
+                                        <div class="container">
+                                            <table class="table table-responsive ml-4">
+                                                <tr>
+                                                    <td class="text-muted">Age</td>
+                                                    <td>:</td>
+                                                    <td>30 years Old</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="text-muted">Email</td>
+                                                    <td>:</td>
+                                                    <td>admin@gmail.com</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="text-muted">Website</td>
+                                                    <td>:</td>
+                                                    <td>www.admin@gmail.com</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>012-34567890</td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="card-footer bg-danger">
+                                    
+                                    
+                                    <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+
+                                    <a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+
+                                    <a href="#"><i class="fa fa-youtube fa-2x mx-3"></i></a>
+                                                                        
+                                    <a href="#"><i class="fa fa-pinterest fa-2x mx-3"></i></a>
+
+                                    <a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <span class="bg-danger text-white">About Me</span><hr class="bg-danger">
+                    <p class="lead text-justify">Guys, You can use Bootstrap to design attractive, professional and attractive Website in a short time. If you want to design a website with the help of HTML5, CSS3, and JavaScript you will take a lot of time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill-->
+    <div id="Skills" class="mt-5">
+        <div class="container">
+            <span class="bg-primary text-white">My Skills</span><hr class="bg-primary">
+        
+        <div class="row" >
+            <div class="col">
+                <div class="card bg-white">
+                    <h3 class="ml-3 my-3">HTML 5 Language</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 95%">95%</div>
+                    </div>
+
+                    <h3 class="ml-3 my-3">CSS 3 Language</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 100%">100%</div>
+                    </div>
+
+                    <h3 class="ml-3 my-3">JavaScript Programming</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 99%">99%</div>
+                    </div>
+
+                    <h3 class="ml-3 my-3">SQL Server</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 90%">90%</div>
+                    </div>
+
+                    <h3 class="ml-3 my-3">C# Programming</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 100%">100%</div>
+                    </div>
+
+                    <h3 class="ml-3 my-3">Java Programming</h3>
+                    <div class="progress mx-3">
+                        <div class="progress-bar bg-dark" style="width: 85%">85%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+ <!-- Experience-->
+ <div id="Experience">
+    <div class="container mt-5"> 
+            <span class="bg-success text-white">Experience</span> <hr class="bg-success">
+        <div class="row">            
+            <div class="col-lg-6">
+                <div class="card bg-white">
+                    <img src="img/udemy.png" width="200" height="80" class="img-fluid m-auto py-3">
+                    <h3 class="text-center text-danger">I'm Udemy Instructor</h3>
+                    <p class="lead text-justify p-3">Learn How to Make Portfolio Website in Bootstrap, Basically, Bootstrap one of the best HTML5, CSS, javascript framework </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                    <div class="card bg-white">
+                        <img src="img/google.png" width="200" height="80" class="img-fluid m-auto py-3">
+                        <h3 class="text-center text-danger">I'm Google Marketer</h3>
+                        <p class="lead text-justify p-3">Learn How to Make Portfolio Website in Bootstrap, Basically, Bootstrap one of the best HTML5, CSS, javascript framework </p>
+                    </div>
+            </div>
+
+            <div class="col-lg-6 mt-5">
+                    <div class="card bg-white">
+                        <img src="img/youtube.png" width="200" height="80" class="img-fluid m-auto py-3">
+                        <h3 class="text-center text-danger">I'm video creator</h3>
+                        <p class="lead text-justify p-3">Learn How to Make Portfolio Website in Bootstrap, Basically, Bootstrap one of the best HTML5, CSS, javascript framework </p>
+                    </div>
+            </div>
+
+            <div class="col-lg-6 mt-5">
+                    <div class="card bg-white">
+                        <img src="img/microsoft.png" width="200" height="80" class="img-fluid m-auto py-3">
+                        <h3 class="text-center text-danger">I'm a Web Developer</h3>
+                        <p class="lead text-justify p-3">Learn How to Make Portfolio Website in Bootstrap, Basically, Bootstrap one of the best HTML5, CSS, javascript framework </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+                         <!--  CONTACT  -->
+    <div id="Contact" > 
+        <div class="container mt-5">
+            <span class="bg-dark text-white">Contact Me</span> <hr class="bg-dark">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-white">
+                        <div class="card-header">
+                            <h4 class="my-4">Contact Me On Below</h4>
+                            <div class="form-group mt-3">
+                                <input type="text" placeholder=" User Name " class="form-control">
+                            </div>
+        
+                            <div class="form-group mt-3">
+                                <input type="text" placeholder=" Email " class="form-control">
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" placeholder="Write Something Here"></textarea>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <button class="btn btn-success text-white">Submit</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col">
+                <div class="contaoner">
+                        <p class="text-white pt-3 text-center">Website Designed By: Ahnoosh</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
